@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.box-1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #e5ffae;
+}
+.box-2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #aeffe1;
+}
+.box-3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #fde2fd;
+}
