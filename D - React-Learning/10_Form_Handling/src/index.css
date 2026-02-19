@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+input {
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.614);
+  border-radius: 5px;
+}
+
+.form-handling {
+  /* border: 2px solid black; */
+  /* width: 25%; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
